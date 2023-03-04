@@ -11,6 +11,11 @@ pipeline {
             steps {
              echo "this is rajeeb"
             }
-        }   
+        }
+           stage('bye') {
+            steps {
+             echo "lastbye"
+            }
+        } 
     }  
   }
