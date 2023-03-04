@@ -9,13 +9,7 @@ pipeline {
         }
         stage('Update Version') {
             steps {
-                script {
-                    sh """
-                    echo "hi rajeeb, this is inside of readme text file"
-                    cat $df_path/README.md
-                    echo "this project is done by rajeeb t"
-                    """
-                }
+             echo "this is rajeeb"
             }
         }   
     }  
